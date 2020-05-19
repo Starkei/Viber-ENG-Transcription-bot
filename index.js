@@ -1,11 +1,13 @@
-require("dotenv").config();
+if (process.env.DEPLOY = "dev")require("dotenv").config();
 
 const express = require("express");
 const ViberBot = require("viber-bot").Bot;
 const TextMessage = require("viber-bot").Message.Text;
 const app = express();
+
 const port = process.env.PORT || 8080;
 const webhookUrl = process.env.WEBHOOK_URL;
+
 const bot = new ViberBot({
   authToken: process.env.VIBER_BOT_TOKEN,
   name: "Eng Transcription",
