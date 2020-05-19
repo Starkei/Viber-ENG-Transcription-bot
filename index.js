@@ -1,4 +1,4 @@
-if (process.env.DEPLOY = "dev")require("dotenv").config();
+require("dotenv").config();
 
 const express = require("express");
 const ViberBot = require("viber-bot").Bot;
