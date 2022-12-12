@@ -18,7 +18,7 @@
   "homepage": "https://github.com/Starkei/Viber-ENG-Transcription-bot#readme",
   "dependencies": {
     "casperjs": "^1.1.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "viber-bot": "^1.0.16",
     "dotenv": "^8.2.0"
   },
